@@ -1,6 +1,6 @@
 {% set name = "axopy" %}
-{% set version = "0.1.0.dev1" %}
-{% set sha256 = "78e77ebb59bf16e145e7419fda03c088f566c10a83897d4ba9c6d653885c2c76" %}
+{% set version = "0.1.0.dev2" %}
+{% set sha256 = "45b89a65431698d8686057a36e02385b3c7610bc65913d8dc9a25ea856a67d2a" %}
 
 package:
   name: {{ name|lower }}
