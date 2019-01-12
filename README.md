@@ -1,7 +1,7 @@
 About axopy
 ===========
 
-Home: http://github.com/ucdrascal/axopy
+Home: http://github.com/axopy/axopy
 
 Package license: MIT
 
