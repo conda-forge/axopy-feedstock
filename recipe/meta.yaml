@@ -1,6 +1,6 @@
 {% set name = "axopy" %}
-{% set version = "0.1.0.dev2" %}
-{% set sha256 = "45b89a65431698d8686057a36e02385b3c7610bc65913d8dc9a25ea856a67d2a" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "b8cae78bc78d63c6d830aa592ea4930e4c72643beb5469c00ddc663ecdec65e8" %}
 
 package:
   name: {{ name|lower }}
@@ -44,14 +44,14 @@ test:
     - axopy.util
 
 about:
-  home: http://github.com/ucdrascal/axopy
+  home: http://github.com/axopy/axopy
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: 'Human-computer interface experimentation library'
 
   doc_url: http://axopy.readthedocs.io/
-  dev_url: https://github.com/ucdrascal/axopy
+  dev_url: https://github.com/axopy/axopy
 
 extra:
   recipe-maintainers:
