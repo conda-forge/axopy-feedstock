@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -33,13 +33,13 @@ test:
   imports:
     - axopy.features
     - axopy.gui
-    - axopy.messaging
     - axopy.pipeline
     - axopy.task
+    - axopy.daq
     - axopy.design
     - axopy.experiment
+    - axopy.messaging
     - axopy.storage
-    - axopy.stream
     - axopy.timing
     - axopy.util
 
