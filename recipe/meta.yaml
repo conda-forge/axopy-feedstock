@@ -1,6 +1,6 @@
 {% set name = "axopy" %}
-{% set version = "0.2.2" %}
-{% set sha256 = "fd7d2d8b9a208b69c61b6cffad5bf08eb0ec5cd460d59ceecdc8fdfafd4b6108" %}
+{% set version = "0.2.3" %}
+{% set sha256 = "f4bb344de40cdc94dc5386efccb3e675aa9395747cd407a4a152441855629354" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
